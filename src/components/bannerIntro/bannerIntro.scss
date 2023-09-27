@@ -1,0 +1,47 @@
+.banner-container {
+    background: white;
+    opacity: 85%;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    text-align: center;
+}
+
+.banner-content {
+    margin-bottom: 2rem;
+}
+
+.banner-button {
+    margin-bottom: 2rem;
+}
+
+button {
+    color: white;
+    background: red
+}
+
+.progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+}
+
+.progress-bar-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background: grey;
+}
+
+.progress-bar-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    background: red;
+}

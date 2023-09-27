@@ -1,0 +1,64 @@
+.banner-chapter-container {
+    background: white;
+    opacity: 85%;
+    padding: 2rem 0;
+    margin: 1rem;
+    border-radius: 10px;
+    border: solid rgb(230, 230, 230) 1px;
+    box-shadow: 0px 3px 13px 0px rgba(45, 45, 45, 0.2);
+}
+
+
+.line {
+    background: rgb(212, 212, 212);
+    width: 100%;
+    height: 1px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.progress-chapter {
+    padding-left: 2rem;
+    margin: 20px auto;
+    padding: 0;
+    width: 90%;
+    height: 10px;
+    overflow: hidden;
+    background: #e5e5e5;
+    border-radius: 6px;
+}
+
+.bar-chapter {
+    padding-left: 2rem;
+    position: relative;
+    float: left;
+    min-width: 50%;
+    height: 100%;
+    background: rgb(255, 0, 0);
+}
+
+.percent-chapter {
+    padding-left: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-family: tahoma, arial, helvetica;
+    font-size: 12px;
+    color: white;
+}
+
+.banner-chapter-video {
+    padding-left: 6rem;
+    padding-bottom: 2rem;
+}
+
+.lesson-number {
+    padding-left: 2rem;
+}
+
+
+.banner-chapter-title {
+    padding-left: 2rem;
+}
