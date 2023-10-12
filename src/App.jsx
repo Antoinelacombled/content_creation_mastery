@@ -1,19 +1,19 @@
 import './App.css'
-import Header from './components/header/header'
-import BannerIntro from './components/bannerIntro/bannerIntro'
-import BannerChapter from './components/bannerChapter/bannerChapter'
+import BannerIntro from "../src/components/INDEX/bannerIntro/bannerIntro"
+import BannerChapter from '../src/components/INDEX/bannerChapter/bannerChapter'
+import videos from '../src/data/data.js'
 
 function App() {
 
   return (
 
-    <div className='glassy-rectangle'>
-      <Header> </Header>
+    <>
       <BannerIntro />
-      <BannerChapter />
-      <BannerChapter />
-    </div>
+      {videos[0].chapter.map((video) => (
+        <BannerChapter key={video.id} {...video} />
+      ))}
 
+    </>
 
   )
 }
